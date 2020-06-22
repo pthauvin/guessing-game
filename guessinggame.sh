@@ -3,7 +3,6 @@
 
 #determine number of files minus the .  and .. files
 count=$(ls -Aq | wc -l)
-echo "There are $count files in this directory."
 
 #function to ask user to guess number of files
 function guess()
